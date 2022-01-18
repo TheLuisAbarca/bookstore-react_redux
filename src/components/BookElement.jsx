@@ -13,5 +13,4 @@ const Book = () => (
     <button type="button">Update progress</button>
   </li>
 );
-  
 export default Book;
