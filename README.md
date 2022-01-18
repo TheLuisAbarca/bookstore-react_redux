@@ -1,8 +1,61 @@
-# Getting Started with Create React App
+# BookStore React/Redux
+A bookstore made using REACT as frontend technology. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+> "Bookstore" CMS is a website that allows you to manage everything about the books that you have read. It is builded using the Single Page App (SPA) structure that allows users to:
+
+    - Add Books by Category.
+    - See a filtered list of books by Categories.
+    - See a list of all the available books.
+
+## Built With
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- React
+- Linters
+
+If you like, you can see a live demo of the site here:
+
+[Live Demo Link](https://theluisabarca.github.io/bookstore-react_redux/)  
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps:
+
+- Select the link with the code on the https code tab in the repo.
+- Open a Terminal and write the command: 
+> `git clone https://github.com/TheLuisAbarca/bookstore-react_redux`.
+- Enter in the folder `bookstore-react_redux` and write the command:
+> `npm install`
+- After that, write the command:
+> `npm start`
+- You should see a live demo of the site.
+
+## Test
+
+- After cloning the project you need to run these commands
+
+  > `npm install`
+  > This command will download all the dependancies of the project
+
+As this project counts with html, css and javascript, you will need to test the following:
+
+- For tracking linter errors in HTML files run:
+
+  > `npx hint .`
+
+- For tracking linter errors in CSS or SASS  files run:
+
+  > `npx stylelint "\*_/_.{css,scss}"`
+
+- And for tracking linter errors in JavaScript files run:
+
+  > `npx eslint .`
+
+## Available Scripts for this project.
 
 In the project directory, you can run:
 
@@ -16,8 +69,7 @@ You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
 
@@ -26,8 +78,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
@@ -39,32 +89,28 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Luis Abarca**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [@TheLuisAbarca](https://github.com/TheLuisAbarca)
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
