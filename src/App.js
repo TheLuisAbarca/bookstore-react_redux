@@ -3,18 +3,20 @@ import {
   BrowserRouter, Routes, Route,
 } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import routes from './routes';
+import Books from './components/Books';
+import Categories from './components/Categories';
 import './App.css';
 
+const URL = process.env.PUBLIC_URL;
+
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={URL}>
     <>
       <Navbar />
       <div className="Bookstore">
         <Routes>
-          {routes.map(({ routePath, routeComponent }) => (
-            <Route key={routePath} path={routePath} element={routeComponent} />
-          ))}
+          <Route path="/" element={<Books />} />
+          <Route path="/categories" element={<Categories />} />
         </Routes>
       </div>
     </>
