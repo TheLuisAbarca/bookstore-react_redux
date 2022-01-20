@@ -74,7 +74,7 @@ const reducer = (state = initialState, action) => {
       });
       return {
         ...state,
-        books: [...state.books, ...fetchedBooks],
+        books: [...fetchedBooks],
       };
     }
     case POST_BOOK: {
