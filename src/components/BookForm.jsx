@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
-import { addBook } from '../redux/books/books';
+import { postBook } from '../redux/books/books';
 
 const BooksForm = () => {
   const [title, setTitle] = useState('');
-  const [author, setAuthor] = useState('');
+  const [author, setAuthor] = useState('Anonymous');
   const [category, setCategory] = useState('default');
   const categories = useSelector((state) => state.categoriesReducer.categories);
 
@@ -18,14 +18,16 @@ const BooksForm = () => {
   const handleNewBook = (e) => {
     e.preventDefault();
 
-    const newBook = {
-      id: uuidv4(),
-      title,
-      author,
-      category,
-    };
+    if (title) {
+      const newBook = {
+        item_id: uuidv4(),
+        title,
+        author,
+        category,
+      };
 
-    dispatch(addBook(newBook));
+      dispatch(postBook(newBook));
+    }
   };
 
   return (
