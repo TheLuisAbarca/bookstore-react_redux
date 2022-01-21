@@ -1,16 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import routes from '../routes';
+import navbar from './Navbar.module.css';
+import userIcon from '../profile-icon.svg';
 
 const Navbar = () => (
-  <nav className="navbar">
-    <ul>
+  <nav>
+    <h1 className={navbar.test}>Bookstore CMS</h1>
+    <div id="#mainNavBar">
       {routes.map(({ routeName, routePath }) => (
-        <li key={routePath}>
-          <Link to={routePath}>{routeName}</Link>
-        </li>
+        <NavLink key={routePath} to={routePath} className={navbar.test}>{routeName}</NavLink>
       ))}
-    </ul>
+    </div>
+    <img src={userIcon} alt="User Profile Icon" />
   </nav>
 );
 

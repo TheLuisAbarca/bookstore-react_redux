@@ -1,0 +1,97 @@
+.bookCard {
+  margin: 2rem auto 1.75rem 1.688rem;
+}
+
+  .bookWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: solid 1px #e8e8e8;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .category {
+    font-size: 0.875rem;
+    font-weight: bold;
+    opacity: 0.5;
+  }
+  
+  .bookTitle {
+    font-size: 1.375rem;
+    font-weight: bold;
+  }
+  
+  .author {
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: #4386bf;
+    margin-bottom: 1.3rem;
+  }
+  
+  .bookCard ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .bookCard ul button {
+    padding: 0;
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: #4386bf;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .bookCard ul hr {
+    width: 0;
+    height: 1rem;
+    margin: 0 1rem;
+    color: #e8e8e8;
+  }
+
+
+
+
+  .progressWrapper {
+    display: flex;
+    margin: 2rem 9.18rem 2.188rem auto;
+  }
+  
+  .percentage {
+    font-size: 2rem;
+  }
+  
+  .complete {
+    opacity: 0.5;
+    font-size: 0.875rem;
+  }
+  
+  .progressWrapper hr {
+    width: 0;
+    margin: 0 5rem;
+    color: #e8e8e8;
+  }
+  
+  .current {
+    opacity: 0.5;
+    font-size: 0.813rem;
+    font-weight: 300;
+  }
+  
+  .chapter {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: -0.4px;
+    margin-bottom: 1.3rem;
+  }
+  
+  .progressWrapper button {
+    width: 11.5rem;
+  }
+
+  div span {
+    display: block;
+  }

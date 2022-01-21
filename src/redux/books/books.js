@@ -70,7 +70,7 @@ const reducer = (state = initialState, action) => {
     case FETCH_BOOKS: {
       const fetchedBooks = [];
       Object.keys(action.data).forEach((id) => {
-        fetchedBooks.push({ item_id: id, ...action.data[id][0] });
+        fetchedBooks.push({ item_id: id, author: 'Anonymous', ...action.data[id][0] });
       });
       return {
         ...state,

@@ -1,3 +1,13 @@
+hr {
+  color: #e8e8e8;
+}
+
+#booksList {
+  display: grid;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
 .App {
   text-align: center;
 }
