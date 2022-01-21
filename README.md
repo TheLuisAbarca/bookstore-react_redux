@@ -1,6 +1,9 @@
 # BookStore React/Redux
 A bookstore made using REACT as frontend technology. 
 
+| Desktop version |
+|-----------------|
+| ![Desktop_image](./readme_imgs/desktop_ver.png) |
 
 > "Bookstore" CMS is a website that allows you to manage everything about the books that you have read. It is builded using the Single Page App (SPA) structure that allows users to:
 
