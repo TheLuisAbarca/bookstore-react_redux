@@ -1,15 +1,15 @@
 .circleWrap {
-    --diameter: 6rem;
-    --radius: 3rem;
-    --degrees: 20deg;
-  
-    display: grid;
-    grid-template-columns: repeat(1, 160px);
-    grid-gap: 80px;
-    width: var(--diameter);
-    height: var(--diameter);
-    background: #d9d7da;
-    border-radius: 50%;
+  --diameter: 6rem;
+  --radius: 3rem;
+  --degrees: 20deg;
+
+  display: grid;
+  grid-template-columns: repeat(1, 160px);
+  grid-gap: 80px;
+  width: var(--diameter);
+  height: var(--diameter);
+  background: #d9d7da;
+  border-radius: 50%;
 }
 
 .mask,
