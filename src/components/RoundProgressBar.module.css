@@ -10,18 +10,18 @@
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-  flex: 1;
+  flex: 1; /* stylelint-disable-line */
   justify-content: center;
 }
 
 .complete {
-  font-family: 'Montserrat, sans-serif';
+  font-family: Montserrat, sans-serif;
   font-size: 0.875rem;
   opacity: 0.5;
 }
 
 .textPercentage {
-  font-family: 'Montserrat, sans-serif';
+  font-family: Montserrat, sans-serif;
   font-size: 2rem;
 }
 

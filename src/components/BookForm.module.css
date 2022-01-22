@@ -8,7 +8,7 @@ form hr {
 
 form h2 {
   margin-bottom: 1rem;
-  font-family: 'Montserrat, sans-serif';
+  font-family: Montserrat, sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
   letter-spacing: -0.18px;
@@ -43,7 +43,7 @@ form input ::placeholder,
 
 form button {
   flex-grow: 1;
-  font-family: 'Roboto Slab, serif';
+  font-family: Roboto Slab, serif;
   font-weight: bold;
   letter-spacing: 0.5px;
   color: #fff;
