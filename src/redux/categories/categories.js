@@ -16,6 +16,18 @@ const initialState = {
       id: 4,
       name: 'Marketing',
     },
+    {
+      id: 5,
+      name: 'Fiction',
+    },
+    {
+      id: 6,
+      name: 'Non-Fiction',
+    },
+    {
+      id: 7,
+      name: 'Cooking',
+    },
   ],
 };
 
