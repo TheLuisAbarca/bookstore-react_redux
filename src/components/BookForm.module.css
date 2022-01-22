@@ -42,9 +42,11 @@ form input ::placeholder,
 
 form button {
   flex-grow: 1;
+  font-family: 'Roboto Slab, serif';
   font-weight: bold;
   letter-spacing: 0.5px;
   color: #fff;
+  text-transform: uppercase;
 }
 
 #input-author {
