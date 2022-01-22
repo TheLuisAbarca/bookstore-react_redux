@@ -80,6 +80,10 @@
   font-size: 2rem;
 }
 
+.updateProgress {
+  font-family: 'Roboto Slab, serif';
+}
+
 .complete {
   opacity: 0.5;
   font-size: 0.875rem;
@@ -89,6 +93,8 @@
   opacity: 0.5;
   font-size: 0.813rem;
   font-weight: 300;
+  color: #121212;
+  text-transform: uppercase;
 }
 
 .chapter {
@@ -96,6 +102,10 @@
   font-weight: 300;
   letter-spacing: -0.4px;
   margin-bottom: 1.3rem;
+}
+
+.update{
+  text-transform: uppercase;
 }
 
 div span {
